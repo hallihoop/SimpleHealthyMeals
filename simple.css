@@ -1,0 +1,133 @@
+body {
+    font-family: "Oswald", regular;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 17px;
+  }
+
+/* Header section here. */
+
+header {
+    background-color: rgb(0, 75, 70);
+    padding: 1rem 2vw;
+}
+
+header h1{
+margin: 0;
+color: rgb(224, 224, 221);
+}
+
+header p{
+margin: 0;
+color: rgb(224, 224, 221);
+letter-spacing: 5px;
+}
+
+/* Navigation section here. */
+
+nav {
+    background-color: rgb(120, 165, 199);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(10, 42, 66);
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.ctive a {
+background-color: #024873;
+color: rgb(255, 74, 47);
+}
+
+nav a:hover {
+    color: rgb(251, 173, 113);
+}
+
+/* Main section here. */
+
+main {
+padding: 1rem 2vw;
+}
+
+main h1 {
+color: rgb(255, 74, 47);
+}
+
+main h2 {
+    color: rgb(184, 209, 0);
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #000000;
+    margin: 0 0 1rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: rgb(224, 224, 221);
+}
+
+main dl dt {
+    color: #b40412;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #024873;
+font-size: .9rem;
+}
+
+main ul {
+    list-style-type: symbols();
+}
+
+main ul li {
+     line-height: 125%;
+     margin-bottom: .5rem;
+     font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: rgb(251, 173, 133);
+    padding: .5rem;
+    width: 12.5rem;
+    border-style: solid;
+    border-color: black;
+    border-radius:  .5rem;
+}
+
+main a {
+    color: rgb(255, 74, 47);
+}
+
+main a:hover {
+    color: rgb(0, 75, 70);
+}
+
+/* Footer section here. */
+
+footer {
+    background-color: rgb(120, 165, 199);
+    text-align:center;
+    color: rgb(10, 42, 66);
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a {
+    color: rgb(224, 224, 221);
+}
