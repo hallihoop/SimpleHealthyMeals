@@ -118,6 +118,40 @@ main a:hover {
     color: rgb(0, 75, 70);
 }
 
+/* image formatting stuff here */
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float:right;
+}
+    
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+    
+figure.wrapped figcaption{
+    text-align: center;
+    font-size: .75rem;
+    color:rgb(255, 74, 47);
+}
+    
+figure.gallery {
+    margin: .5rem 2% 0 0;
+}
+    
+figure.gallery figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color:rgb(184, 209, 0);
+}
+    
+div.gallery {
+    display:flex;
+    flex-wrap:wrap;
+}
+
 /* Footer section here. */
 
 footer {
