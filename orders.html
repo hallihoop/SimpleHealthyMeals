@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Simple & Healthy Meals is dedicated to helping those who are on a budget to eat better."/>
+    <meta charset="UTF-8">
+    <title>Simple & Healthy Meals: Eating rich, on a budget.</title>
+    <link rel="stylesheet" href="simple.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<meta charset="UTF-8">
+
+</head>
+<body>
+    <!-- This is the start of the header section. -->
+<header>
+    <img src="images/orangelogo.png" alt="orange logo" width="100" height="71">
+    <div>
+<h1>Simple & Healthy Meals</h1>
+<p>Eating rich, on a budget.</p>
+</header>
+    
+    <!-- This is the start of the page navigation -->
+<nav>
+<ul>
+<li><a href="index.html">About Me</a></li>
+<li><a href="faqs.html">FAQ's</a></li>
+<li><a href="meals.html">Meals</a></li>
+<li class="active"><a href="orders.html">Order</a></li>
+<li><a href="prices.html">Prices</a></li>
+<li><a href="contactme.html">Contact Me</a></li>
+</ul>
+</nav>
+    
+    <!-- This is the start of the page main -->
+<main>
+        <h1>Ready-To-Go Meals</h1>
+        <form method="get" class="myform" action="thankyou.html">
+
+<fieldset>
+         <legend>Customer Info:</legend>
+    <label>First Name* <input type="text" name="first_name" required></label>
+    <label>Last Name* <input type="text" name="last_name" required></label>
+    <label>Cell Number* <input type="tel" name="phone" required placeholder="***-***-****"></label>
+    <label>Email* <input type="text" name="email" required></label>
+</fieldset>
+
+    <fieldset>
+    <legend>Delivery Method:</legend>
+    <label><input type="radio" name="method" value="drone">Email (preferred)</label>
+    <label><input type="radio" name="method" value="cycle">Messages</label>
+    <label><input type="radio" name="method" value="robot">Drop-Off (hard copies)</label>
+</fieldset>
+
+<fieldset>
+    <legend>Select Recipes:</legend>
+    <label><input type="checkbox" name="potatotacobowl" value="potatotacobowl">Potato Taco Bowl</label>
+    <label><input type="checkbox" name="cajunshrimp" value="cajunshrimp">Cajun Shrimp</label>
+    <label><input type="checkbox" name="cilantrochicken" value="cilantrochicken">Cilantro Lime Chicken</label>
+    <label><input type="checkbox" name="eggs" value="eggs">Eggs with Hatch Green Chilis</label>
+    <label><input type="checkbox" name="beefkale" value="beefkale">Beef with Kale and Potatos</label>
+    <label><input type="checkbox" name="salmonveggies" value="salmonveggies">Salmon with Veggies</label>
+    <label><input type="checkbox" name="protienblueberrycheesecake" value="protienblueberrycheesecake">Protien Blueberry Cheesecake</label>
+    <label><input type="checkbox" name="zoodlespagetti" value="zoodlespagetti">Spagetti with Zuccini Noodles</label>
+    <br><br>
+    <label>Preferred Drop-Off:</label>
+    <select name="time">
+    <option value="none">Please Select</option>
+    <option value="mail">P.O Box</option>
+    <option value="frontporch">Front Porch</option>
+    <option value="backdoor">Back Door</option>
+    <option value="other">Other (please explain in comments)</option>
+</select>
+</fieldset>
+<label>Comments
+<textarea name="comments"></textarea>
+</label>
+<input type="submit" value="Order Now">
+
+</form>
+</main>
+
+<!-- This is the start of the page footer -->
+<footer>
+    <p>&copy;2024 &bull; Simple & Healthy Meals &bull; <a href="mailto:hallihoopes@me.com">Email Me</a> </p>
+</footer>
+</body>
+</html>

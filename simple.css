@@ -1,0 +1,264 @@
+body {
+    font-family: "Oswald", regular;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 17px;
+  }
+
+/* Header section here. */
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+}
+header div{
+    padding-left: 2vw;
+}
+header {
+    background-color: rgb(0, 75, 70);
+    padding: 1rem 2vw;
+}
+
+header h1{
+margin: 0;
+color: rgb(224, 224, 221);
+}
+
+header p{
+margin: 0;
+color: rgb(184, 209, 0);
+letter-spacing: 5px;
+}
+
+/* small screens */
+@media only screen and (max-width: 600px) {
+nav ul {
+    margin: 0;
+    padding:0 2vw;
+    list-style-type: none;
+}
+nav a {
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom:solid 2px rgb(251, 173, 113);
+    color: rgb(10, 42, 66);
+    background-color: rgb(120, 165, 199);
+}
+
+} /*end of the media query*/
+
+/* WIDE screens*/
+@media only screen and (min-width: 601px) {
+    nav {
+        border-top: solid 2px rgb(251, 173, 113);
+        border-bottom: solid 2px rgb(251, 173, 112);  
+    }
+    
+    nav {
+        background-color: rgb(120, 165, 199);
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0 2vw;
+        margin: 0;
+        display: flex;
+    }
+    
+    nav a {
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: rgb(10, 42, 66);
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+    }
+    
+    nav li.ctive a {
+    background-color: #024873;
+    color: rgb(255, 74, 47);
+    }
+    
+    nav a:hover {
+        color: rgb(224, 224, 221);
+    }
+
+} /*end of the media query*/
+
+/* Main section here. */
+
+main {
+padding: 1rem 2vw;
+}
+
+main h1 {
+color: rgb(255, 74, 47);
+}
+
+main h2 {
+    color: rgb(184, 209, 0);
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #000000;
+    margin: 0 0 1rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: rgb(224, 224, 221);
+}
+
+main dl dt {
+    color: #b40412;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #024873;
+font-size: .9rem;
+}
+
+main ul {
+    list-style-type: symbols();
+}
+
+main ul li {
+     line-height: 125%;
+     margin-bottom: .5rem;
+     font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: rgb(224, 224, 221);
+    padding: .5rem;
+    width: 12.5rem;
+    border-style: solid;
+    border-color: black;
+    border-radius:  .5rem;
+}
+
+main a {
+    color: rgb(255, 74, 47);
+}
+
+main a:hover {
+    color: rgb(0, 75, 70);
+}
+
+/* image formatting stuff here */
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float:right;
+}
+    
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+
+}
+    
+figure.wrapped figcaption{
+    text-align: center;
+    font-size: .75rem;
+    color:rgb(255, 74, 47);
+}
+    
+figure.gallery {
+    margin: .5rem 2% 0 0;
+    
+}
+    
+figure.gallery figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color:rgb(184, 209, 0);
+}
+    
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.gallery section {
+    flex-basis: 50%;
+    margin: 1rem 0;
+    
+} 
+.gallery span {
+    display: block;
+    text-align: center; 
+    font-weight: 300;
+}
+.gallery img:hover {
+    width: 98%;
+    height: auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+.gallery img {
+    width: 98%;
+    height: auto;
+}
+
+.cookinghero {
+    width: 100%;
+    margin: 0;
+}
+
+.cookinghero img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+   
+}
+
+/* format table content here */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: rgb(120, 165, 199);
+    color: rgb(10, 42, 66);
+    text-align: left;
+    font-size: 1.2rem;
+    padding: .5rem 2vw;
+}
+table td{
+color: black;
+padding: .4rem 2vw;
+}
+
+table tr:nth-child(odd){
+    background-color: #f6f6f6;
+}
+
+table tr:hover {
+    background-color: rgb(251, 173, 112);
+}
+
+/* Footer section here. */
+
+footer {
+    background-color: rgb(120, 165, 199);
+    text-align:center;
+    color: rgb(10, 42, 66);
+    padding: 1rem 0;
+    font-size: .8rem;
+    border-top: solid 2px rgb(251, 173, 113);
+    border-bottom: solid 2px rgb(251, 173, 112);
+}
+
+footer a {
+    color: rgb(224, 224, 221);
+}
