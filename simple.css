@@ -45,7 +45,7 @@ nav a {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    border-bottom:solid 2px rgb(251, 173, 113);
+    border-bottom:solid 2px rgb(255, 207, 148);
     color: rgb(10, 42, 66);
     background-color: rgb(120, 165, 199);
 }
@@ -55,8 +55,8 @@ nav a {
 /* WIDE screens*/
 @media only screen and (min-width: 601px) {
     nav {
-        border-top: solid 2px rgb(251, 173, 113);
-        border-bottom: solid 2px rgb(251, 173, 112);  
+        border-top: solid 2px rgb(255, 207, 148);
+        border-bottom: solid 2px rgb(255, 207, 148);  
     }
     
     nav {
@@ -136,7 +136,7 @@ main ul li {
 
 main address {
     font-style: normal;
-    background-color: rgb(224, 224, 221);
+    background-color: rgb(255, 207, 148);
     padding: .5rem;
     width: 12.5rem;
     border-style: solid;
@@ -244,8 +244,21 @@ table tr:nth-child(odd){
 }
 
 table tr:hover {
-    background-color: rgb(251, 173, 112);
+    background-color: rgb(255, 207, 148);
 }
+
+.myform fieldset {
+    border: 1px solid rgb(0, 75, 70);
+    border-radius: 3px;
+margin-bottom: 1rem;
+}
+.myform legend {
+    color:rgb(184, 209, 0);
+    font-size: .8rem;
+}
+
+
+
 
 /* Footer section here. */
 
@@ -255,8 +268,8 @@ footer {
     color: rgb(10, 42, 66);
     padding: 1rem 0;
     font-size: .8rem;
-    border-top: solid 2px rgb(251, 173, 113);
-    border-bottom: solid 2px rgb(251, 173, 112);
+    border-top: solid 2px rgb(255, 207, 148);
+    border-bottom: solid 2px rgb(255, 207, 148);
 }
 
 footer a {

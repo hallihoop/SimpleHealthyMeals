@@ -47,14 +47,14 @@
 </fieldset>
 
     <fieldset>
-    <legend>Delivery Method:</legend>
-    <label><input type="radio" name="method" value="drone">Email (preferred)</label>
-    <label><input type="radio" name="method" value="cycle">Messages</label>
-    <label><input type="radio" name="method" value="robot">Drop-Off (hard copies)</label>
+    <legend>Delivery:</legend>
+    <label><input type="radio" name="method" value="robot">Drop-Off</label>
+    <label><input type="radio" name="method" value="robot">Pick-Up (at my door)</label>
+    <label><input type="radio" name="method" value="robot">Meet Up</label>
 </fieldset>
 
 <fieldset>
-    <legend>Select Recipes:</legend>
+    <legend>Select Meals:</legend>
     <label><input type="checkbox" name="potatotacobowl" value="potatotacobowl">Potato Taco Bowl</label>
     <label><input type="checkbox" name="cajunshrimp" value="cajunshrimp">Cajun Shrimp</label>
     <label><input type="checkbox" name="cilantrochicken" value="cilantrochicken">Cilantro Lime Chicken</label>
@@ -67,12 +67,16 @@
     <label>Preferred Drop-Off:</label>
     <select name="time">
     <option value="none">Please Select</option>
-    <option value="mail">P.O Box</option>
     <option value="frontporch">Front Porch</option>
     <option value="backdoor">Back Door</option>
     <option value="other">Other (please explain in comments)</option>
 </select>
 </fieldset>
+<label>Please enter your personal address, or the address of where you'd like to meet: (can deliver within 40 mile radius)
+<textarea name="enteraddress"></textarea>
+</label>
+</select>
+</fieldset><br>
 <label>Comments
 <textarea name="comments"></textarea>
 </label>
