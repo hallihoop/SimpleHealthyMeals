@@ -152,13 +152,17 @@ main a:hover {
     color: rgb(0, 75, 70);
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 64%;
-  }
+.herocooking {
+    width: 100%;
+    margin: 0;
+}
 
+.herocooking img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+   
+}
 /* image formatting stuff here */
 
 figure.wrapped {
